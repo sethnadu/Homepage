@@ -8,7 +8,7 @@ const WeatherDiv = styled.div `
     width: 400px;
     align-items: center;
     justify-content: flex-start;
-    margin: 80px auto auto auto;
+    margin: 80px auto 60px auto;
     background-color: #fefc81;
     opacity: .8;
     padding: 5px;
@@ -44,7 +44,7 @@ function Api(props) {
     <>
     <WeatherDiv>
       <h1>Lancaster, PA</h1>
-      <iframe src="http://free.timeanddate.com/clock/i6uvqc1t/n4561/fs18/tcfefc81/ftb/tt0/tw1/tm1/tb4" frameborder="0" width="160" height="44" ></iframe>
+      <iframe src="http://free.timeanddate.com/clock/i6uvqc1t/n4561/fs18/tcfefc81/ftb/tt0/tw1/tm1/tb4" frameBorder="0" width="160" height="44" ></iframe>
       <Paragraph><Span>{props.weather.WeatherText}</Span></Paragraph>
       <WeatherInfo>
       <Paragraph>Temperature: <Span>{props.temperature.Value}°</Span></Paragraph>

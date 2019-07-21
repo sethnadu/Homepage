@@ -17,14 +17,16 @@ import anrestorationLogo from "../Assets/Personal-images/anrestoration.png";
 
 
 const Professional = styled.div `
-    display: flex;
-    justify-content: center;
+  background-color: #b5bcbe;
+  padding: 10px;
+  border-radius: 10px;
 
 `;
 
 const HeaderList = styled.header `
     font-size: 1.4rem;
     text-align: center;
+    
 `;
 
 

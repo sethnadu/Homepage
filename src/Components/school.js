@@ -15,8 +15,9 @@ import portfolioLogo from "../Assets/School-images/portfolio.png";
 
 
 const Professional = styled.div `
-    display: flex;
-    justify-content: center;
+  background-color: #b5bcbe;
+  padding: 10px;
+  border-radius: 10px;
 
 `;
 
